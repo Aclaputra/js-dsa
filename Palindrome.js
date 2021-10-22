@@ -2,7 +2,7 @@
 // functions: push, pop, peek, length
 
 var letters = []; //stack
-var word = "racecar";
+var word = "racecars";
 var rword = "";
 
 // put letters of word into stack
