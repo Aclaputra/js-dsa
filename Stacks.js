@@ -33,12 +33,14 @@ var Stack = function(value) {
 
 var myStack = new Stack();
 
-myStack.push(1);
+myStack.push('yolo');
 myStack.push(2);
 console.log(myStack.peek());
 console.log(myStack.pop());
 console.log(myStack.peek());
 myStack.push("Acla Putra");
+console.log(myStack.storage);
 console.log(myStack.size());
 console.log(myStack.pop());
 console.log(myStack.peek());
+console.log(myStack.storage);
