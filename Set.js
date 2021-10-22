@@ -82,4 +82,5 @@ function mySet() {
  setB.add("a");
  setB.add("d");
  console.log(setA.subset(setB));
+ console.log(setA.difference(setB));
  
