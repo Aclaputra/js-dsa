@@ -1,4 +1,3 @@
-
 const setku = new Set();
 
 setku.add(10);
