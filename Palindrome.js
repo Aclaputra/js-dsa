@@ -1,4 +1,4 @@
-// Stacks!
+// Palindrom using Stacks data Structure. 
 // functions: push, pop, peek, length
 
 var letters = []; //stack
