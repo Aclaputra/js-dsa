@@ -3,8 +3,7 @@ Practice JavaScript data structures and algorithms for Coding Interviews.
 
 - logic dsa -> https://www.freecodecamp.org/news/10-common-data-structures-explained-with-videos-exercises-aaff6c06fb2b/
 freecodecamp challenge(Coding Interview Prep) -> https://www.freecodecamp.org/learn/coding-interview-prep/#take-home-projects
-
-example data visualiaztion -> https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+- example data visualiaztion -> https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 ## Stacks
 
