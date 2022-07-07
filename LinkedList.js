@@ -9,14 +9,26 @@ function LinkedList() {
       this.next = null; 
     }; 
   
+    /**
+     * size method
+     * @returns length
+     */
     this.size = function(){
       return length;    
     };
   
+    /**
+     * head method
+     * @returns head
+     */
     this.head = function(){
       return head;
     };
   
+    /**
+     * add method
+     * @param {*} element 
+     */
     this.add = function(element){
       var node = new Node(element);
       if(head === null){
@@ -34,6 +46,10 @@ function LinkedList() {
       length++;
     }; 
   
+    /**
+     * remove method
+     * @param {*} element 
+     */
     this.remove = function(element){
       var currentNode = head;
       var previousNode;
@@ -51,10 +67,19 @@ function LinkedList() {
       length --;
     };
     
+    /**
+     * isEmpty method
+     * @returns boolean after checking length === 0 or not
+     */
     this.isEmpty = function() {
       return length === 0;
     };
   
+    /**
+     * indexOf method
+     * @param {*} element 
+     * @returns 
+     */
     this.indexOf = function(element) {
       var currentNode = head;
       var index = -1;
@@ -70,6 +95,11 @@ function LinkedList() {
       return -1;
     };
   
+    /**
+     * elementAt method
+     * @param {*} index 
+     * @returns 
+     */
     this.elementAt = function(index) {
       var currentNode = head;
       var count = 0;
@@ -80,7 +110,12 @@ function LinkedList() {
       return currentNode.element;
     };
     
-    
+    /**
+     * addAt method
+     * @param {*} index 
+     * @param {*} element 
+     * @returns 
+     */
     this.addAt = function(index, element){
       var node = new Node(element);
   
@@ -107,6 +142,11 @@ function LinkedList() {
       length++;
     }
     
+    /**
+     * removeAt method
+     * @param {*} index 
+     * @returns 
+     */
     this.removeAt = function(index) {
       var currentNode = head;
       var previousNode;
@@ -130,6 +170,7 @@ function LinkedList() {
   
 } 
   
+
 var conga = new LinkedList();
 conga.add('Kitten');
 conga.add('Puppy');
